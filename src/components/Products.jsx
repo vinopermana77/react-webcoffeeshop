@@ -17,7 +17,7 @@ const Products = () => {
     return (
         <div className='products py-5 d-flex align-items-center' id='products'>
             <Container>
-                <div>
+                <div className="product-title">
                     <h1 className='heading text-center text-white mt-5'>Product</h1>
                     <p className='text-center text-white mb-5'>Let's pick your coffee</p>
                 </div>
@@ -124,7 +124,7 @@ const Products = () => {
 
                 {/* Best Seller */}
                 <Row>
-                    <div>
+                    <div className="product-bestseller">
                         <h1 className='heading text-center text-white mt-5'>BEST SELLER!!!</h1>
                         <p className='text-center text-white'>Let's pick your coffee</p>
                     </div>

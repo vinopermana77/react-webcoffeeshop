@@ -31,8 +31,8 @@ const NavigationBar = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="nav-link fs-5 ms-auto text-center">
                             <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#about">About Us</Nav.Link>
                             <Nav.Link href="#products">Products</Nav.Link>
+                            <Nav.Link href="#about">About Us</Nav.Link>
                             <Nav.Link href="#services">Services</Nav.Link>
                             <Nav.Link href="#customers">Customers</Nav.Link>
                             <Nav.Link href="#"><i className='bx bx-cart-alt'></i></Nav.Link>

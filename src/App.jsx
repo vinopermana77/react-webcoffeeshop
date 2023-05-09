@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <NavigationBar />
       <Hero />
-      <About />
       <Products />
+      <About />
       <Services />
       <Customers />
       <Footer />
