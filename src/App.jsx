@@ -1,4 +1,4 @@
-import NavBar from "./components/Navbar"
+import NavigationBar from "./components/NavigationBar"
 import Hero from "./components/Hero"
 import Products from "./components/Products"
 import Services from "./components/Services"
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar />
+      <NavigationBar />
       <Hero />
       <About />
       <Products />

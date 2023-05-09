@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import logo from '../assets/img/navbar/coffee-logo-png.png'
 
-const NavBar = () => {
+const NavigationBar = () => {
 
     const [color, setColor] = useState(false)
 
@@ -45,4 +45,4 @@ const NavBar = () => {
     )
 }
 
-export default NavBar
+export default NavigationBar
